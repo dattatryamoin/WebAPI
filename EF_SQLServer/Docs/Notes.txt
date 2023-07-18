@@ -1,3 +1,10 @@
+//Nuget Packages required
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+
+
 //Sql Scripts
 
 create table employeeDetails
@@ -45,6 +52,17 @@ Scaffold-DbContext "server=.;database=Training;integrated security=true; TrustSe
 
 
 
+create table productsList
+(
+pid int primary key,
+pName varchar(50),
+pCategory varchar(50),
+pPrice money,
+pIsInStock bit,
+pImage varchar(500)
+)
+
+insert into productsList values(1,'Dell Vostro','Laptop',20000,1,'www.google.com')
 
 
 
