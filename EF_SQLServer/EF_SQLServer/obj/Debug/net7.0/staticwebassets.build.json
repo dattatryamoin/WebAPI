@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5WFvauCy87zpb9l7SxCu7q0dnmtj1Yt5dgyJ/WsvXUk=",
+  "Source": "EF_SQLServer",
+  "BasePath": "_content/EF_SQLServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
